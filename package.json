@@ -1,0 +1,25 @@
+{
+  "name": "vite-test",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:test": "vite build --mode=test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "unplugin-auto-import": "^0.12.1",
+    "vant": "^4.0.7",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "unplugin-vue-components": "^0.22.12",
+    "vite": "^4.0.4",
+    "vite-plugin-webpackchunkname": "^0.2.3"
+  }
+}
