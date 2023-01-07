@@ -1,1 +1,0 @@
-import{_ as t,B as n,c as o,w as c,o as a,a as s}from"./vendor-9b782095.js";const _={};function r(u,f){const e=n;return a(),o(e,null,{default:c(()=>[s("news2.vue里的按钮")]),_:1})}const d=t(_,[["render",r]]);export{d as default};
