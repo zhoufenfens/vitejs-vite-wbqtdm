@@ -4,11 +4,11 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "build.preview": "vite build & vite preview",
     "dev": "vite",
     "build": "vite build",
     "build:test": "vite build --mode=test",
-    "preview": "vite preview",
-    "build.preview": "vite build & vite preview"
+    "preview": "vite preview"
   },
   "dependencies": {
     "http-server": "^14.1.1",
