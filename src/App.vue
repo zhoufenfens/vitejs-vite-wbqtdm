@@ -6,13 +6,11 @@
   <div class='router-view'>
     <router-view></router-view>
   </div>
-
   <div>
     <a class='link' href='/#/news'>切换到/news</a>
-    
     <a class='link'  href='/#/news2'>切换到/news2</a>
   </div>
-  <van-button>App.vue里的按钮</van-button>
+  <van-button type='primary' size='small'> App.vue里的按钮</van-button>
 </template>
 
 <style scoped>
@@ -29,7 +27,11 @@
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 .link {
-  display: block;
+  font-size: 14px;
+  display: inline-block;
+}
+.link:last-child {
+  margin-left: 20px;
 }
 .router-view {
   width: 300px;
@@ -39,5 +41,7 @@
   justify-content: center;
   border: 1px solid red;
   padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 </style>

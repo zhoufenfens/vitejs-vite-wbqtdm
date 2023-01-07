@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <van-button>news.vue里的按钮</van-button>
+  <van-button size='small'>news.vue里的按钮</van-button>
 </template>
 
 <style scoped>
