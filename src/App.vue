@@ -4,7 +4,7 @@
 
 <template>
   <router-view></router-view>
-  <van-button>test123</van-button>
+  <van-button>App.vue里的按钮</van-button>
 </template>
 
 <style scoped>

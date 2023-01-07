@@ -1,1 +1,0 @@
-import{_ as t,c as n,w as o,r as a,o as c,a as s}from"./vendor-9b782095.js";const r={};function _(f,l){const e=a("van-button");return c(),n(e,null,{default:o(()=>[s("news")]),_:1})}const p=t(r,[["render",_]]);export{p as default};
