@@ -1,1 +1,0 @@
-import{_ as t,c as n,w as o,r as s,o as a,a as c}from"./vendor-4aaefd96.js";const r={};function _(f,l){const e=s("van-button");return a(),n(e,{size:"small"},{default:o(()=>[c("news.vue里的按钮")]),_:1})}const m=t(r,[["render",_]]);export{m as default};

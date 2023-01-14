@@ -11,6 +11,7 @@ export default defineConfig({
     vue(),
     Components({
       resolvers: [VantResolver()],
+      include: [/\.vue$/, /\.vue\?/],
     }),
     AutoImport({
       resolvers: [VantResolver()],
