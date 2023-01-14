@@ -11,7 +11,7 @@
     <a class='link'  href='/#/news2'>切换到/news2</a>
   </div>
   <van-button type='primary' size='small'> App.vue里的按钮</van-button>
-  <div>run <b style="color: #08f;">"npm run build.preview"</b> to see the difference between the development env and build env. </div>
+  <div>run <b style="color: #08f;">"npm run b-p"</b> to see the difference between the development env and build env. </div>
 </template>
 
 <style scoped>
